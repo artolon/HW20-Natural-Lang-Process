@@ -1,11 +1,11 @@
 # Homework20 - Natural Language Processing
 
-This homework assignment focused on natural language processing. Primary skills focused on included: Map and reduce, regular expressions, tokenizing words/sentences, stemming, lematizing, and sentiment analysis. 
+This homework assignment focused on natural language processing. Primary skills included: Map and reduce, regular expressions, tokenizing words/sentences, stemming, lematizing, and sentiment analysis. 
 
-## 1. Write a python program (not a Jupyter notebook, but a py file you run from the command line) that accepts the cats_txt.txt file as input and counts the frequency of all words and punctuation in that text file, ordered by frequency. Make sure to handle capital and lowercase versions of words and count them together.
+### 1. Write a python program (not a Jupyter notebook, but a py file you run from the command line) that accepts the cats_txt.txt file as input and counts the frequency of all words and punctuation in that text file, ordered by frequency. Make sure to handle capital and lowercase versions of words and count them together.
 - The code for this question can be found in the mapper.py and reducer.py files, which are both saved to this repo
 
-## 2. Document how to run the program you created in question 1 in a readme.md file in your repo. Be as clear as possible. Use proper markdown, and consider using screenshots. Be sure to briefly discuss why this kind of exercise might be helpful for NLP in your markdown.
+### 2. Document how to run the program you created in question 1 in a readme.md file in your repo. Be as clear as possible. Use proper markdown, and consider using screenshots. Be sure to briefly discuss why this kind of exercise might be helpful for NLP in your markdown.
 **How to run this program**
 - First, open a terminal, whether through the command prompt, git bash, or within VSCode, etc. 
 - Next call the text file and/or string that you would like to input
