@@ -5,7 +5,7 @@ import re
 # import re for regular expressions
 
 # list of punctuation types for our regular expression
-pattern = r"[.?!*&()\[],:;'']+"
+#pattern = r"[.?!*&()\[],:;'']+\'"
 
 # stdin = standard input (similar to using the actual input function)
 # All words in the text will be read as a separate input
@@ -22,7 +22,8 @@ for line in sys.stdin:
         # Now, use a regular expression to eliminate all digits from any words
         word = re.sub(r'[0-9]+','',word)
         # Reg expression to extract punctuation
-        word = re.findall(r"[\w']+|[.,!?;]", word)
+        #word = re.findall(r"[\w']+|[.,!?;:]+|\'+", word)
+        word = re.findall(r"[\w]+|[^\s\w]", word)
         
         # Pass over any blank spaces
         for word in word:
